@@ -6,7 +6,7 @@
 	<meta http-equiv="refresh" content="0;URL='http://denis.baskovsky.ru/'" />    
 	<title>Denis Baskovsky</title>
 
-	<!-- open graph -->
+	<!-- Open graph -->
 	<meta property="og:title" content="Denis Baskovsky" />
 	<meta property="og:description" content="Демиург"/>
 	<meta property="og:image" content="https://www.gravatar.com/avatar/89e08674193fec1b38e57ed3a5aeeb33?s=200" />
@@ -14,6 +14,10 @@
 	<meta property="og:site_name" content="Baskovsky" />
 	<meta property="og:locale" content="ru_RU" />
 	<meta property="og:url" content="http://denis.baskovsky.ru/"/>
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@qkqp" />
+	<meta name="twitter:creator" content="@qkqp" />
 	
 	<!-- Standardised web app manifest -->
 	<link rel="manifest" href="app.manifest" />
@@ -35,15 +39,19 @@
 	<link rel="apple-touch-icon" sizes="256x256" href="icon-256.png" />
 	<meta name="HandheldFriendly" content="true" />
 
+	<!-- Google Plus -->
+	<link rel="author" href="https://plus.google.com/115642714578148108902">
+	<link rel="publisher" href="https://plus.google.com/115642714578148108902">
+
 	<meta name="p:domain_verify" content="75ab38f329882d6a4e233d2d734b1e0c"/>
 
-<!-- Chrome for Android web app tags -->
+	<!-- Chrome for Android web app tags -->
 	<meta name="mobile-web-app-capable" content="yes" />
 	<link rel="shortcut icon" sizes="256x256" href="icon-256.png" />
 
 	<link rel="stylesheet" type="text/css" href="styles.css"> 
 
-<!-- All margins and padding must be zero for the canvas to fill the screen. -->
+	<!-- All margins and padding must be zero for the canvas to fill the screen. -->
 	<style type="text/css">
 		* {
 			padding: 0;
@@ -52,12 +60,10 @@
 		html, body {
 			color: #fff;
 			overflow: hidden;
-			-ms-touch-action: none;
 			touch-action: none;
 		}
 		canvas {
 			touch-action-delay: none;
-			-ms-touch-action: none;
 			touch-action: none;
 		}
     </style>
@@ -84,23 +90,10 @@
 		<!-- The canvas the project will render to.  If you change its ID, don't forget to change the
 		ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
 		<canvas id="c2canvas" width="1024" height="768">
-			<!-- This text is displayed if the visitor's browser does not support HTML5.
-			You can change it, but it is a good idea to link to a description of a browser
-			and provide some links to download some popular HTML5-compatible browsers. -->
-			<h1>Your browser does not appear to support HTML5.  Try upgrading your browser to the latest version.  <a href="http://www.whatbrowser.org">What is a browser?</a>
-			<br/><br/>
-			<a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a><br/>
-			<a href="http://www.google.com/chrome/">Google Chrome</a><br/>
-			<a href="http://www.apple.com/safari/download/">Apple Safari</a><br/>
-			
-			<hr/>
-			
-			<h1>Contacts and links:</h1>
-				<br>
-				<a href="mailto:baskovsky@ya.ru">MAIL</a><br/>
+			<h1>Contacts and links:</h1><br>
+				<a href="mailto:baskovsky@ya.ru">mail</a><br/>
 				<a href="//blog.baskovsky.ru/" target="_myblog">blog.baskovsky.ru<br/>
 				<a href="//denis.baskovsky.ru/" target="_mysite">denis.baskovsky.ru<br/>
-				<a href="//games.baskovsky.ru/" target="_mygames">My Games<br/>
 		</canvas>
 		
 	</div>
