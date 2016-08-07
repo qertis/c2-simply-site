@@ -2,8 +2,8 @@
 	"name": "Denis Baskovsky",
 	"short_name": "Denis Baskovsky",
 	"start_url": "index.html",
-	"display": "fullscreen",
-	"orientation": "landscape",
+	"display": "standalone",
+	"orientation": "any",
 	"icons": [{
 		"src": "icon-16.png",
 		"sizes": "16x16",
